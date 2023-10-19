@@ -11,12 +11,9 @@ Implementation using Python code
 Step 3:
 Testing the server and client
 
-PROGRAM:
-Server code:
-
-# echo-server.py
-
-
+## PROGRAM:
+## Server side:
+```
 import socket
 
 
@@ -35,12 +32,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if not data:
                 break
             conn.sendall(data)
+```
+## Client side:
 
-Client code:
-
-# echo-client.py
-
-
+```
 import socket
 
 
@@ -55,12 +50,16 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 
 print(f"Received {data!r}")
-OUTPUT:
-Server side:
-server_png
+```
 
-Client side:
-client_png
+## OUTPUT:
+## Server side:
+![image](https://github.com/Shrishxok/Echoserver/assets/120294863/033fb141-e186-4c65-86e5-190723c908f1)
+
+
+## Client side:
+![image](https://github.com/Shrishxok/Echoserver/assets/120294863/41ed5f6d-d5b4-4207-a425-a6278909fc81)
+
 
 RESULT:
 The program is executed successfully
