@@ -1,14 +1,14 @@
-AIM:
+## AIM:
 To develop a simple webserver to serve html programming pages.
 
-DESIGN STEPS:
-Step 1:
+## DESIGN STEPS:
+## Step 1:
 Design of echo server and client using python socket
 
-Step 2:
+## Step 2:
 Implementation using Python code
 
-Step 3:
+## Step 3:
 Testing the server and client
 
 ## PROGRAM:
@@ -54,12 +54,14 @@ print(f"Received {data!r}")
 
 ## OUTPUT:
 ## Server side:
+
 ![image](https://github.com/Shrishxok/Echoserver/assets/120294863/033fb141-e186-4c65-86e5-190723c908f1)
 
 
 ## Client side:
+
 ![image](https://github.com/Shrishxok/Echoserver/assets/120294863/41ed5f6d-d5b4-4207-a425-a6278909fc81)
 
 
-RESULT:
+##RESULT:
 The program is executed successfully
